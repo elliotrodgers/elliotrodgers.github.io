@@ -1,0 +1,78 @@
+
+/* NAVBAR */
+.navbar-custom {
+	background-color:#007e33;
+	color:#ffffff;
+	border-radius:0;
+	border:0px;
+}
+.navbar-custom .navbar-nav > li > a {
+	color:#fff;
+	padding-left:20px;
+	padding-right:20px;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+	background-color: #33aa33;
+}
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus, .navbar-custom .navbar-nav .open>a  { 
+	background-color: #33aa33;
+	color:white;
+}
+.navbar-custom .navbar-nav .dropdown-menu  { 
+	background-color: #33aa33;
+}
+.navbar-custom .navbar-nav .dropdown-menu>li>a  { 
+	color: #fff;
+}
+.navbar-custom .navbar-nav .dropdown-menu>li>a:hover,.navbar-custom .navbar-nav .dropdown-menu>li>a:focus  { 
+	color: #33aa33;
+}
+.navbar-custom .navbar-brand {
+	color:#eeeeee;
+}
+.navbar-custom .navbar-toggle {
+	background-color:#eeeeee;
+}
+.navbar-custom .icon-bar {
+	background-color:#33aa33;
+}
+
+/* PANEL */
+.panel-custom {
+	border-color: #007e33;
+}
+.panel-heading {
+	border-color: #007e33;
+	background-color: #007e33;
+	color: white;
+	cursor: pointer;
+}
+
+/* LIST GROUP */
+a {
+	color:#007e33;
+}
+.nav-tabs {
+	border-bottom-color: #007e33;
+	margin-bottom:20px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+	color: #fff;
+	background-color: #33aa33;
+	border-color: #007e33;
+}
+.nav-tabs > li > a:focus, .nav-tabs > li > a:hover {
+	color: #fff;
+	background-color: #33aa33;
+	border-color: #007e33;
+}
+
+.btn {
+	background-color: #007e33;
+	border-color: #007e33;
+}
+
+.btn:hover, .btn:focus, .btn:active {
+	background-color: #33aa33 !important;
+	border-color: #33aa33 !important;
+}
