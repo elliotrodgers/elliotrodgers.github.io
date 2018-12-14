@@ -2,21 +2,7 @@
     height: 100vh;
 }
 
-.btn {
-    background-color: #007e33;
-    border-color: #007e33;
-}
-
-.btn:hover, .btn:focus, .btn:active {
-    background-color: #33aa33;
-    border-color: #33aa33;
-}
-
-.col-md-6 {
-    float: none;
-}
-
-.card {
+.profile {
     text-align: center;
     border: 0px;
 }
@@ -25,24 +11,21 @@
     color: grey;
 }
 
-.profile-links {
-    font-size: 40px;
+.profile-link {
+    color: #007e33;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.profile-link:hover, .profile-link:focus, .profile-link:active {
+    color: #33aa33;
+    text-decoration: none;
 }
 
 .profile-img {
     width: 50%;
     max-width: 750px;
-    margin: auto;
     border-radius: 50%;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-.card-btn {
-    border-radius: 25px;
-    outline: 0;
-    color: white;
-    cursor: pointer;
-    font-size: 30px;
-    width: 20%;
 }
