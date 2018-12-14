@@ -31,6 +31,7 @@
 
 .profile-img {
     width: 50%;
+    max-width: 750px;
     margin: auto;
     border-radius: 50%;
     margin-top: 10px;
